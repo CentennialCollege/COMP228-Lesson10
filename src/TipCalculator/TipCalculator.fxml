@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Text?>
+
+<GridPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TipCalculator.TipCalculatorController">
+
+   <children>
+   	  <!--  message Text -->
+   	  <Text fx:id="messageText" 
+   	  text="Enter a Message"
+   	  styleClass="message"
+   	  GridPane.columnIndex = "1"
+   	  GridPane.rowIndex = "0"
+   	  GridPane.columnSpan = "3"
+   	  />
+   	  
+   	  <!--  Name Label -->
+      <Label fx:id="nameLabel" 
+      text="First Name:" 
+      GridPane.columnIndex="1" 
+      GridPane.rowIndex="1" />
+      
+      <!--  Name Text Field -->
+      <TextField 
+      fx:id="nameTextField" 
+      GridPane.columnIndex="2" 
+      GridPane.rowIndex="1" />
+      
+      <!--  clickMe Button -->
+      <Button fx:id="clickMeButton" 
+      onAction="#clickMeButtonHandler"
+      text="Click Me!" 
+      GridPane.columnIndex="2" 
+      GridPane.halignment="RIGHT" 
+      GridPane.rowIndex="2" />
+   </children>
+
+</GridPane>

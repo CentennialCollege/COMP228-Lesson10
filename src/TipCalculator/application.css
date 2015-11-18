@@ -1,0 +1,30 @@
+.root {
+	-fx-font-family:Helvetica; 
+	-fx-font-size:20px;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+.label {
+	-fx-font-weight: bold;
+}
+
+.text-field {
+	-fx-text-fill: blue;
+}
+
+#nameLabel {
+	-fx-font-style: italic;
+}
+
+#messageText {
+	-fx-font-size: 60px;
+}
+
+.message {
+	-fx-font-family: Consolas;
+}
+
+
+
+
